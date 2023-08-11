@@ -1,0 +1,29 @@
+{
+  "name": "telegram_redirect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/main.js",
+  "scripts": {
+    "dev": "cross-env DEBUG=1 nodemon app/main.js",
+    "start": "node app/main.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged --pattern \"**/*.*(js|jsx|html)\""
+    }
+  },
+  "nodemonConfig": {
+    "ext": "js,mjs,json,html,css"
+  },
+  "author": "Ahmed Mones",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env-os": "^7.1.1",
+    "husky": "^8.0.3",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.1"
+  },
+  "dependencies": {
+    "@cyph/pretty-quick": "^4.0.0"
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Sitemap: https://t.iqprx.com/sitemap_ar.xml
+Sitemap: https://t.iqprx.com/sitemap_en.xml
